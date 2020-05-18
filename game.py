@@ -1,5 +1,5 @@
 colors = {0: "red", 1: "green", 2: "yellow", 3: "blue"}
-
+## This class is for the gatti
 class gatti:
     loc = -1
     MAXMOVES = 56
