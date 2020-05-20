@@ -11,22 +11,22 @@ class StartZone:
         "yellow": set()
     }
 
-    def __init__(self, players):
+    def __init__(self, playerColors):
         # choose how many players to play
-        self.players=players
+        self.playerColors=playerColors
         for i in self.allGattis:
             pass
             #print(self.allGattis[i])
 
         # assin gatti of different color to the player
-        for color in self.players:
+        for color in self.playerColors:
             for i in range(4):
                #print("{}".format(allGattis[colors[color]]))
                 self.allGattis[Gatti.colors[color]].add(Gatti(color))
                 #print("{} {}".format(i,k))
 
     def checkOtherGattis(self, gatti):
-        for color in self.players:
+        for color in self.playerColors:
             if(color != gatti.color):
                 for otherGatti in self.allGattis[Gatti.colors[color]]:
                     if(otherGatti.loc==gatti.loc):

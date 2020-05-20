@@ -1,4 +1,6 @@
-from LudoWorld import LudoWorld
+#from ludo import LudoWorld
+from LudoWorld import  LudoWorld
+#from LudoWorld import LudoWorld
 
 
 x = LudoWorld(2)
