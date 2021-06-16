@@ -32,3 +32,4 @@ class Gatti:
             #pass
 
         #inSafeZone=self.isInSafeZone()
+
