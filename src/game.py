@@ -115,3 +115,4 @@ x.showGattiStatus()
 # print(red.loc)
 # red.move(5)
 # print(red.loc)
+
