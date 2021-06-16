@@ -48,3 +48,4 @@ class LudoWorld:
             print(i)  # len(self.startZone.allGattis[i]))
             for j in self.startZone.allGattis[i]:
                 print(j.loc)
+
