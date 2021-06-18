@@ -29,3 +29,4 @@ def getAbsLoc(gatti):
     #     print(LudoWorld.ABS_POS[colorDesc])
 
 print(getAbsLoc(gatti))
+
