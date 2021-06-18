@@ -49,3 +49,4 @@ class LudoWorld:
             for j in self.startZone.allGattis[i]:
                 print(j.loc)
 
+
